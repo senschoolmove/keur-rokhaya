@@ -58,6 +58,14 @@ header {
     background: white;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999; /* TRÈS IMPORTANT */
+    background: #0a1946;
+}
 
 
 
@@ -758,4 +766,25 @@ body {
     .social-icons {
         justify-content: center;
     }
+}
+
+.nav-links {
+    position: fixed;
+    top: 70px; /* hauteur du header */
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 70px);
+    background: #0a1946;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    transform: translateX(100%);
+    transition: transform 0.4s ease;
+    z-index: 9998;
+}
+
+.nav-links.active {
+    transform: translateX(0);
 }
