@@ -1,0 +1,130 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HERO */
+.hero-filieres {
+    height: 60vh;
+    background: linear-gradient(rgba(170, 179, 194, 0.6), rgba(26, 209, 26, 0.6)),
+                url("img/hero-filieres.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+}
+
+.hero-content p {
+    margin-top: 15px;
+    font-size: 1.1rem;
+}
+
+/* INTRO */
+.intro {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: center;
+    color: #0b0b11;
+    font-size: 1.05rem;
+}
+
+/* FILIÈRES */
+.filieres {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.filiere {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+.filiere.reverse {
+    flex-direction: row-reverse;
+}
+
+.filiere img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.filiere-text h2 {
+    color: #0a1931;
+    margin-bottom: 15px;
+}
+
+.filiere-text p {
+    color: #2c66b6;
+    margin-bottom: 15px;
+}
+
+.filiere-text ul {
+    list-style: disc;
+    padding-left: 20px;
+    color: #1e293b;
+}
+
+/* MÉTHODE */
+.methodes {
+    background: #f8fafc;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.methodes h2 {
+    color: #0a1931;
+    margin-bottom: 15px;
+}
+
+.methodes p {
+    max-width: 800px;
+    margin: auto;
+    color: #475569;
+}
+
+/* CTA */
+.cta {
+    background: #13da2e;
+    color: #fff;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.cta a {
+    display: inline-block;
+    margin-top: 20px;
+    background: #fff;
+    color: #16d42f;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta a:hover {
+    background: #e0e7ff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .filiere {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .filiere img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* HERO */
+.admission-hero {
+    height: 60vh;
+    background: linear-gradient(rgba(194, 197, 206, 0.7), rgba(126, 214, 53, 0.7)),
+                url("img/admission-bg.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.admission-hero h1 {
+    font-size: 3rem;
+}
+
+.admission-hero p {
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+.btn-admission {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #66d11f;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+/* INTRO */
+.admission-intro {
+    padding: 60px 15%;
+    text-align: center;
+    background: #f9fafb;
+}
+
+.admission-intro h2 {
+    color: #0e1d29;
+    margin-bottom: 15px;
+}
+
+/* TIMELINE */
+.admission-process {
+    padding: 70px 10%;
+}
+
+.admission-process h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #0a1946;
+}
+
+.timeline {
+    max-width: 900px;
+    margin: auto;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.step {
+    min-width: 60px;
+    height: 60px;
+    background: #2563eb;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.timeline-item .content h3 {
+    margin-bottom: 8px;
+    color: #0a1946;
+}
+
+/* CONDITIONS */
+.admission-conditions {
+    padding: 60px 15%;
+    background: #f1f5f9;
+}
+
+.admission-conditions h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0a1946;
+}
+
+.admission-conditions ul {
+    max-width: 600px;
+    margin: auto;
+    list-style: none;
+}
+
+.admission-conditions li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* CTA */
+.admission-cta {
+    padding: 70px 15%;
+    text-align: center;
+    background: #1f9c29;
+    color: white;
+}
+
+.btn-whatsapp {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 30px;
+    background: #25d366;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .admission-intro,
+    .admission-conditions,
+    .admission-cta {
+        padding: 40px 8%;
+    }
+
+    .admission-hero h1 {
+        font-size: 2.2rem;
+    }
+}

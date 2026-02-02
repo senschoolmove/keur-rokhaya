@@ -1,0 +1,164 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HERO */
+.hero-niveaux {
+    height: 60vh;
+    background: linear-gradient(rgba(206, 221, 204, 0.6), rgba(40, 218, 63, 0.6)),
+                url("img/hero-niveaux.jpg") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+}
+
+.hero-content p {
+    margin-top: 15px;
+    font-size: 1.1rem;
+}
+
+/* INTRO */
+.intro {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: center;
+    color: #475569;
+}
+
+/* NIVEAUX */
+.niveaux {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.niveau {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.niveau.reverse {
+    flex-direction: row-reverse;
+}
+
+.niveau img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.niveau-text h2 {
+    color: #0a1931;
+    margin-bottom: 15px;
+}
+
+.niveau-text p {
+    color: #475569;
+    margin-bottom: 15px;
+}
+
+.niveau-text ul {
+    padding-left: 20px;
+    color: #1e293b;
+}
+
+/* TABLE */
+.table-section {
+    background: #f8fafc;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.table-section h2 {
+    margin-bottom: 30px;
+    color: #0a1931;
+}
+
+table {
+    margin: auto;
+    width: 90%;
+    max-width: 800px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #e2e8f0;
+}
+
+th {
+    background: #1cce25;
+    color: #fff;
+}
+
+td {
+    color: #2fcc2f;
+}
+
+/* ENCADREMENT */
+.encadrement {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.encadrement h2 {
+    margin-bottom: 15px;
+    color: #0a1931;
+}
+
+.encadrement p {
+    max-width: 800px;
+    margin: auto;
+    color: #475569;
+}
+
+/* CTA */
+.cta {
+    background: #2ceb25;
+    color: #fff;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.cta a {
+    display: inline-block;
+    margin-top: 20px;
+    background: #fff;
+    color: #1db61d;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta a:hover {
+    background: #e0e7ff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .niveau {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .niveau img {
+        width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+}
