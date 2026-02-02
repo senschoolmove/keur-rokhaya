@@ -58,14 +58,7 @@ header {
     background: white;
 }
 
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999; /* TRÈS IMPORTANT */
-    background: #0a1946;
-}
+
 
 
 
@@ -75,11 +68,7 @@ header {
     width: 100%;
     margin: 0 auto 50px;
     overflow: hidden;
-}
 
-.carousel {
-    position: relative;
-    z-index: 1;
 }
 
 .carousel-track-container {
@@ -793,4 +782,5 @@ body {
 .nav-links.active {
     transform: translateX(0);
 }
+
 
