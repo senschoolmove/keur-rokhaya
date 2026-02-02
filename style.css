@@ -77,6 +77,11 @@ header {
     overflow: hidden;
 }
 
+.carousel {
+    position: relative;
+    z-index: 1;
+}
+
 .carousel-track-container {
     overflow: hidden;
     position: relative;
@@ -788,3 +793,4 @@ body {
 .nav-links.active {
     transform: translateX(0);
 }
+
