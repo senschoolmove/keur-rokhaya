@@ -768,7 +768,7 @@ body {
     left: 0;
     width: 100%;
     height: calc(100vh - 70px);
-    background: #0a1946;
+    background: #37cf19;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -782,5 +782,6 @@ body {
 .nav-links.active {
     transform: translateX(0);
 }
+
 
 
